@@ -5,10 +5,12 @@ description = ""
 authors = ["Janusz \"Ivellios\" Kamieński"]
 license = "MIT License"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
 aoc-python-cli = "^0.2.0"
+pytest-watch = "^4.2.0"
 
 
 [build-system]
